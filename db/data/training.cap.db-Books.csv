@@ -1,0 +1,5 @@
+ID;bookName;author;edition;noOfCopies;yearOfPublish;isAvailable
+b55ab8f0-36cd-11f0-b6e6-325096b39f47;Wings of Fire;Dr. APJ Abdul Kalam;2;50;1990;true
+b55abbac-36cd-11f0-b98f-325096b39f47;Encyclopedia;ABC;3;10;2020;false
+b55abc4c-36cd-11f0-9d12-325096b39f47;Course Handbook;XYZ;1;2;2021;true
+b55abcce-36cd-11f0-bee6-325096b39f47;Science Fiction;Dr. Dhawan;3;20;2022;true

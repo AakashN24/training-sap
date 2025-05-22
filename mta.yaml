@@ -54,6 +54,30 @@ modules:
         existing_destinations_policy: ignore
   build-parameters:
     no-source: true
+- name: traning-cap-app-content
+  type: com.sap.application.content
+  path: .
+  requires:
+  - name: traning-cap_html_repo_host
+    parameters:
+      content-target: true
+  build-parameters:
+    build-result: resources
+    requires:
+    - artifacts:
+      - userinfo.zip
+      name: userinfo
+      target-path: resources/
+- name: userinfo
+  type: html5
+  path: app/user-info
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []
 resources:
 - name: traning-cap-db
   type: com.sap.xs.hdi-container
@@ -65,6 +89,15 @@ resources:
   parameters:
     config:
       HTML5Runtime_enabled: true
+      init_data:
+        instance:
+          destinations:
+          - Authentication: NoAuthentication
+            Name: ui5
+            ProxyType: Internet
+            Type: HTTP
+            URL: https://ui5.sap.com
+          existing_destinations_policy: update
       version: 1.0.0
     service: destination
     service-name: traning-cap-destination-service
@@ -83,6 +116,7 @@ resources:
     service-name: traning-cap-xsuaa-service
     service-plan: application
 parameters:
+  deploy_mode: html5-repo
   enable-parallel-deployments: true
 build-parameters:
   before-all:
