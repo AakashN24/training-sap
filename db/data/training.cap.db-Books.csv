@@ -2,4 +2,14 @@ ID;bookName;author;edition;noOfCopies;yearOfPublish;isAvailable
 b55ab8f0-36cd-11f0-b6e6-325096b39f47;Wings of Fire;Dr. APJ Abdul Kalam;2;50;1990;true
 b55abbac-36cd-11f0-b98f-325096b39f47;Encyclopedia;ABC;3;10;2020;false
 b55abc4c-36cd-11f0-9d12-325096b39f47;Course Handbook;XYZ;1;2;2021;true
-b55abcce-36cd-11f0-bee6-325096b39f47;Science Fiction;Dr. Dhawan;3;20;2022;true
+b55abcce-36cd-11f0-bee6-325096b39f47;Science Fiction;Dr. Satish Dhawan;3;20;2022;true
+3fa85f64-5717-4562-b3fc-2c963f66afa6;The Alchemist;Paulo Coelho;1;10;1993;true
+e2717cdd-bbc0-4130-8c1f-cb1f8de5b231;1984;George Orwell;2;5;1949;false
+9f31fdd0-7dc2-455f-9d1a-7dce3d4b2ab2;To Kill a Mockingbird;Harper Lee;3;7;1960;true
+7e72a0f1-4c6c-4a49-90ae-3bc567b99aef;Brave New World;Aldous Huxley;1;8;1932;true
+d1cfa73c-342e-4871-9377-e8459d6e9831;The Great Gatsby;F. Scott Fitzgerald;1;3;1925;false
+b67f27b3-6bd9-49f5-b8a1-31723adf01fd;The Book Thief;Markus Zusak;2;6;2005;true
+2a38f2e3-2da3-4bd8-9b2a-725aad3df768;Harry Potter and the Sorcerer's Stone;J.K. Rowling;1;15;1997;true
+fdbaec9e-3a60-4b92-bc92-03c4961c67b4;The Catcher in the Rye;J.D. Salinger;1;4;1951;false
+ac4f5231-91b7-4c34-8b4c-bd1c44d69b82;Life of Pi;Yann Martel;2;5;2001;false
+ba7c43d2-2a34-445b-9172-d6cf506ff44b;Sapiens;Yuval Noah Harari;1;12;2011;true
